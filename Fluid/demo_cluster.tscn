@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://3wyv5iyw5h0n"]
+
+[ext_resource type="Script" path="res://Fluid/demo_cluster.gd" id="1_pc0b2"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_u0xuy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gchms"]
+albedo_color = Color(0.541176, 0, 1, 1)
+
+[node name="demo_cluster" type="MeshInstance3D"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+mesh = SubResource("SphereMesh_u0xuy")
+surface_material_override/0 = SubResource("StandardMaterial3D_gchms")
+script = ExtResource("1_pc0b2")

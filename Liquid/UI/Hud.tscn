@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://diu4sgp4qhirk"]
+
+[ext_resource type="Script" path="res://Liquid/UI/Hud.gd" id="1_qdbh0"]
+
+[node name="Root" type="Label"]
+script = ExtResource("1_qdbh0")

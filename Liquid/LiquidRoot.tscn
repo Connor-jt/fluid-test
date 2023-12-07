@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1arqurf3dcj0"]
+
+[ext_resource type="Script" path="res://Liquid/LiquidRoot.gd" id="1_v67nk"]
+
+[node name="Root" type="Node3D"]
+script = ExtResource("1_v67nk")
